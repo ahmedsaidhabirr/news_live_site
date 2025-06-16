@@ -1,28 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>News & Live TV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع إخباري لمتابعة آخر الأخبار ومشاهدة البث المباشر.">
+    <title>موقع الأخبار والبث المباشر</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>🌍 موقع الأخبار والبث المباشر</h1>
+
+    <header class="site-header">
+        <h1><span role="img" aria-label="Globe">🌍</span> موقع الأخبار والبث المباشر</h1>
     </header>
 
-    <nav>
-        <button onclick="showNews()">📰 الأخبار</button>
-        <button onclick="showLive()">📺 البث المباشر</button>
+    <nav class="main-nav">
+        <button type="button" id="news-btn">📰 الأخبار</button>
+        <button type="button" id="live-btn">📺 البث المباشر</button>
     </nav>
 
     <main id="content">
-        <!-- المحتوى سيتم تغييره بالجاڤا سكريبت -->
+        <!-- المحتوى الديناميكي سيتم تحميله هنا بواسطة الجافا سكريبت -->
+        <noscript>
+            <p>يرجى تمكين الجافا سكريبت لعرض المحتوى الديناميكي لهذا الموقع.</p>
+        </noscript>
     </main>
 
-    <footer>
-        <p>جميع الحقوق محفوظة © 2025</p>
+    <footer class="site-footer">
+        <p>&copy; جميع الحقوق محفوظة 2025</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+
 </body>
-</html>
+</ht
